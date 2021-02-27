@@ -11,9 +11,7 @@
         "dev": "concurrently \"npm run newdata\" \"npm run server\" \"npm run client\"",
         "data:import": "node backend/seederScript"
     },
-    "keywords": [
-        "Leonardo Da Vinci, Mona Lisa, Johannes Vermeer, Sandro Botticelli ,Vincent van Gogh ,Andy Warhol,Pablo Picasso,Vincent van Gogh , Qaulity, Price, locally, pretty,faster delivery, avaliable24/7,Art , Paint,Canvas ,colors"
-    ],
+    "keywords": ["Leonardo Da Vinci, Mona Lisa, Johannes Vermeer, Sandro Botticelli ,Vincent van Gogh ,Andy Warhol,Pablo Picasso,Vincent van Gogh , Qaulity, Price, locally, pretty,faster delivery, avaliable24/7,Art , Paint,Canvas ,colors"],
     "author": " Roaa, Omer,  Laith ,Lara , Mohammed",
     "license": "ISC",
     "dependencies": {
@@ -21,7 +19,7 @@
         "dotenv": "^8.2.0",
         "express": "^4.17.1",
         "jsonwebtoken": "^8.5.1",
-        "mongoose": "^5.11.15",
+        "mongoose": "^5.11.17",
         "nodemailer": "^6.4.18"
     },
     "devDependencies": {
